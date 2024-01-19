@@ -1,0 +1,46 @@
+.text-white {
+    color:white;
+}
+
+main {
+    background:#D9D9D9;
+}
+
+ul.nav li.nav-item:nth-child(1) {
+    color:red;
+}
+/*
+ul.nav li.nav-item:nth-child(2) {
+    ini untuk li sebelum yang terakhir
+} */
+
+.bg-app {
+    background-color: #343a40;
+}
+
+#sidebar[data-v-fcebc900] {
+    background:linear-gradient(to bottom, #343a40, #1d2124);
+    height: calc(100vh - 55px) !important;
+    color:white;
+}
+li.nav-item  {
+    color:white;
+}
+ul.nav li.nav-item {
+    font-weight: bold;
+    border-top: solid;;
+    border-color: rgb(137, 139, 0);
+    border-width: thin;
+}
+
+ul.nav li.nav-item:last-child {
+    border-bottom: solid;
+    border-width: thin;
+    border-color: rgb(137, 139, 0);
+}
+
+.mainapp {
+    margin-top: 2rem;
+    height: calc(100vh - 130px) ;
+    background-color: transparent;
+}
